@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: jost;
+}
+.card{
+    overflow: visible;
+    transition: transform 2s ease-in-out;
+       
+}
+
+.card:hover{
+    transform: scale(0.7);
+   
+  
+}
